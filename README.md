@@ -4,10 +4,10 @@ cd /home/v-barannik/Desktop/docker-node-demo
 # білд
 docker build . -t v-barannik/node_app
 
-### запуск сервера
+### запуск контейнеру з сервером з обмеженнями по ресурсах
 docker run -p 80:8080 -d --cpus="0.5" --memory="256m" v-barannik/node_app
 
-### Переглядаю чи дійсно контейнер запустився і працює
+### Переглядаємо чи дійсно контейнер запустився і працює
 docker ps
 
 ### Перевіряємо чи сервер працює
