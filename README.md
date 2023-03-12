@@ -1,5 +1,5 @@
 ### заходимо у директорію проекту
-cd /home/v-barannik/Desktop/node_docker
+cd /home/v-barannik/Desktop/docker-node-demo
 
 # білд
 docker build . -t v-barannik/node_app
